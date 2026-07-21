@@ -7,6 +7,10 @@
 
 **[Download PDF](ATLC-paper.pdf)**
 
+### Python Simulator
+
+**[Download ATLC_Simulator_v1.4.py](ATLC_Simulator_v1.4.py)**
+
 ---
 
 Also available on Zenodo:  
