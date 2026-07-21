@@ -5,7 +5,7 @@
 
 ### Download the paper
 
-**[Download PDF](A%20Discrete%20Angular%20Tetravalent%20Lattice%20and%20a%20Candidate%20Pathway%20to%20the%20Schrödinger%20Equation.pdf)**
+**[Download PDF](ATLC-paper.pdf)**
 
 ---
 
