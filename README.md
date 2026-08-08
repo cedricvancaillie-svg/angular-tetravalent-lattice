@@ -52,8 +52,8 @@ The research establishes a closed theoretical loop between classical discrete ge
 **Summary:** This paper starts from the top: a fully coherent, non-unitary quantum walk with complex amplitudes. By applying a full quantum dephasing channel (zooming in), the quantum magic evaporates, and the intensity evolution *exactly* recovers the classical tetravalent process.
 
 * **Key Results:**
-  * Derives the algebraic skeleton of the 2D Weyl operator ($\partial_x + i\partial_y$).
-  * Proves a **wave-speed duality**: the absolute information edge propagates at the hyperbolic light-cone speed ($c=1$), while the macroscopic density ridge propagates at $c=1/2$.
+  * Derives the algebraic skeleton of the 2D Weyl operator (∂ₓ + i∂ᵧ).
+  * Proves a **wave-speed duality**: the absolute information edge propagates at the hyperbolic light-cone speed c = 1, while the macroscopic density ridge propagates at c = 1/2.
   * Demonstrates **topological robustness**: a spatial domain wall traps a 1-D chiral edge current (via classical skipping orbits) that remains perfectly unidirectional even under **80% quenched spatial disorder**.
 
 
