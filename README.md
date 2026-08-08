@@ -24,7 +24,7 @@ This repository contains the foundational papers and Python simulators for the *
 
 The research establishes a closed theoretical loop between classical discrete geometry and quantum mechanics through two complementary perspectives:
 
-* **Zooming Out (The Generative Foundation):** Starting from the discrete angular lattice, dual feedback loops, and an elastic restoring force, the model coarse-grains to the continuum. It provides a candidate geometric pathway to the Schrödinger and Dirac equations, the emergence of mass, and falsifiable cosmological predictions.
+* **Zooming Out (The Generative Foundation):** Starting from the discrete angular lattice, dual feedback loops, and an elastic restoring force, the model coarse-grains to the continuum. It provides a candidate geometric pathway to the Schrödinger and Dirac equations.
 
 * **Zooming In (The Quantum-to-Classical Bridge):** Starting from a non-unitary quantum walk, the model proves that applying a full quantum dephasing channel exactly recovers the classical tetravalent process. This minimal extension natively generates the algebraic skeleton of the 2D Weyl operator, a wave-speed duality, and robust chiral edge currents that survive strong spatial disorder.
 
