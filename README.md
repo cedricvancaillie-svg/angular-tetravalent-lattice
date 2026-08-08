@@ -57,6 +57,16 @@ The research establishes a closed theoretical loop between classical discrete ge
   * Demonstrates **topological robustness**: a spatial domain wall traps a 1-D chiral edge current (via classical skipping orbits) that remains perfectly unidirectional even under **80% quenched spatial disorder**.
 
 
+## Summary of the Work
+
+These two papers establish a perfect theoretical bridge:
+
+- **Paper 1** proves that if you start with the classical grid and *zoom out*, you generate quantum-like continuum physics.  
+- **Paper 2** proves that if you start with a quantum walk and *zoom in* (via decoherence), you land exactly back on the classical grid.
+
+Together, they demonstrate that complex active matter and non-unitary dynamics do not require highly engineered quantum coins; they are fundamental consequences of discrete cyclic geometry.
+
+
 ## Citation
 
 If you use this code or build upon this theoretical framework in your own research, please cite the corresponding Zenodo records:
