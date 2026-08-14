@@ -11,9 +11,9 @@ Email: cedric.van.caillie@gmail.com
 # The Angular Tetravalent Lattice
 **A minimal geometric foundation for active matter, non-unitary quantum walks, emergent continuum physics, and the geometric origin of mass.**
 
-[![DOI:10.5281/zenodo.21460531](https://img.shields.io/badge/DOI-10.5281/zenodo.21460531-blue.svg)](https://zenodo.org/records/21460531)
-[![DOI:10.5281/zenodo.21829396](https://img.shields.io/badge/DOI-10.5281/zenodo.21829396-blue.svg)](https://zenodo.org/records/21829396)
-[![DOI:10.5281/zenodo.21933730](https://img.shields.io/badge/DOI-10.5281/zenodo.21933730-blue.svg)](https://zenodo.org/records/21933730)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21460531-blue)](https://zenodo.org/records/21460531)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21829396-blue)](https://zenodo.org/records/21829396)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21933730-blue)](https://zenodo.org/records/21933730)
 
 ## Overview
 
@@ -25,7 +25,7 @@ The research develops three complementary perspectives:
 
 * **Zooming Out (Generative Foundation):** Starting from the discrete angular lattice, the model coarse-grains to the continuum and provides candidate geometric pathways to the Schrödinger and Dirac equations.
 * **Zooming In (Quantum-to-Classical Bridge):** Starting from a non-unitary quantum walk, full quantum dephasing exactly recovers the classical tetravalent process, while natively generating the algebraic skeleton of the 2D Weyl operator, wave-speed duality, and robust chiral edge currents.
-* **Geometric Origin of Mass:** By introducing a discrete elastic restoring force (geometric inertia) on the same lattice, a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for \(E = mc^2\).
+* **Geometric Origin of Mass:** By introducing a discrete elastic restoring force (geometric inertia) on the same lattice, a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
 
 ## 📄 The Research
 
@@ -47,16 +47,16 @@ The research develops three complementary perspectives:
 
 * **Key Results:**
   * Derives the algebraic skeleton of the 2D Weyl operator (∂ₓ + i∂ᵧ).
-  * Proves a **wave-speed duality**: the absolute information edge propagates at the hyperbolic light-cone speed \(c = 1\), while the macroscopic density ridge propagates at \(c = 1/2\).
+  * Proves a **wave-speed duality**: the absolute information edge propagates at the hyperbolic light-cone speed c = 1, while the macroscopic density ridge propagates at c = 1/2.
   * Demonstrates **topological robustness**: a spatial domain wall traps a 1-D chiral edge current that remains perfectly unidirectional even under **80% quenched spatial disorder**.
 
 ### Paper 3: Geometric Origin of Mass
-**The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and \(E = mc^2\)**  
+**The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²**  
 * **Zenodo:** [10.5281/zenodo.21933730](https://zenodo.org/records/21933730)  
 * **PDF:** [`Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf`](Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf)  
 * **Simulator:** [`emergence_of_mass.py`](emergence_of_mass.py)
 
-**Summary:** Building directly on the classical lattice, this paper introduces a discrete elastic restoring force that acts as geometric inertia. Through a systematic continuum-limit analysis and numerical scaling tests, it shows that this resistance generates a mass-like term while strictly preserving the absolute light-cone (\(c = 1\)). A geometric ansatz is proposed in which rest energy is interpreted as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for Einstein’s \(E = mc^2\).
+**Summary:** Building directly on the classical lattice, this paper introduces a discrete elastic restoring force that acts as geometric inertia. Through a systematic continuum-limit analysis and numerical scaling tests, it shows that this resistance generates a mass-like term while strictly preserving the absolute light-cone (c = 1). A geometric ansatz is proposed in which rest energy is interpreted as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
 
 ## Summary of the Work
 
@@ -64,7 +64,7 @@ These three papers form a coherent research programme:
 
 - **Paper 1** shows that zooming out from the classical 90° lattice generates continuum quantum-like physics.
 - **Paper 2** shows that zooming in from a non-unitary quantum walk lands exactly back on the same classical lattice, while producing Weyl dynamics and robust chiral edge modes.
-- **Paper 3** shows that a minimal geometric resistance on the same lattice generates a mass-like term and a candidate geometric interpretation of \(E = mc^2\).
+- **Paper 3** shows that a minimal geometric resistance on the same lattice generates a mass-like term and a candidate geometric interpretation of **E = mc²**.
 
 Together, they demonstrate that continuum quantum dynamics, chiral edge modes, and the emergence of mass can arise as fundamental consequences of discrete cyclic geometry.
 
@@ -74,4 +74,4 @@ If you use this code or build upon this theoretical framework, please cite the c
 
 * Van Caillie, C. (2026). A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation. Zenodo. https://doi.org/10.5281/zenodo.21460531  
 * Van Caillie, C. (2026). The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes. Zenodo. https://doi.org/10.5281/zenodo.21829396  
-* Van Caillie, C. (2026). The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and \(E = mc^2\). Zenodo. https://doi.org/10.5281/zenodo.21933730
+* Van Caillie, C. (2026). The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc². Zenodo. https://doi.org/10.5281/zenodo.21933730
