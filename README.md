@@ -43,6 +43,10 @@ The research develops three complementary perspectives:
 
 This paper starts at the microscopic floor: the classical angular lattice. Taking the continuum limit of the discrete 90° rotational grid generates continuum quantum-like equations, providing a candidate geometric pathway to the Schrödinger and Dirac equations.
 
+![State Evolution over 15,000 steps](Paper1%20figure%201.png)
+
+![Elastic Rupture Risk and Fermat Spiral Phase Growth](Paper1%20Fgure%202%20and%203.png)
+
 ### 2. Zooming In — Quantum-to-Classical Bridge
 **The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes**
 
@@ -57,6 +61,10 @@ Starting from a fully coherent non-unitary quantum walk, full quantum dephasing 
 - Wave-speed duality (information edge at `c = 1`, macroscopic ridge at `c = 1/2`)
 - Robust chiral edge currents that survive strong spatial disorder
 
+![Emergence of 2-D Wavefront](wave_ring.png)
+
+![Robust Chiral Edge Current](edge_state_disordered.png)
+
 ### 3. Geometric Origin of Mass
 **The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²**
 
@@ -65,6 +73,8 @@ Starting from a fully coherent non-unitary quantum walk, full quantum dephasing 
 - **Simulator:** `emergence_of_mass.py`
 
 By introducing a discrete elastic restoring force (geometric inertia), a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
+
+![Emergence of Mass](emergence_of_mass.png)
 
 ---
 
