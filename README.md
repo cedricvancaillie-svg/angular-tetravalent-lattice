@@ -45,11 +45,15 @@ This paper starts at the microscopic floor: the classical angular lattice. Takin
 
 **Long-term state evolution of the four-component system:**
 
-<img src="Paper1%20figure%201.png" width="720">
+<p align="center">
+  <img src="Paper1%20figure%201.png" width="720">
+</p>
 
 **Elastic rupture risk remains stable, while the Fermat spiral phase grows as expected:**
 
-<img src="Paper1%20Fgure%202%20and%203.png" width="720">
+<p align="center">
+  <img src="Paper1%20Fgure%202%20and%203.png" width="720">
+</p>
 
 ### 2. Zooming In — Quantum-to-Classical Bridge
 **The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes**
@@ -67,11 +71,15 @@ Starting from a fully coherent non-unitary quantum walk, full quantum dephasing 
 
 **Emergence of a clean 2-D wavefront from classical active mixing:**
 
-<img src="wave_ring.png" width="620">
+<p align="center">
+  <img src="wave_ring.png" width="620">
+</p>
 
 **Robust chiral edge current that remains unidirectional even under 80% spatial disorder:**
 
-<img src="edge_state_disordered.png" width="620">
+<p align="center">
+  <img src="edge_state_disordered.png" width="480">
+</p>
 
 ### 3. Geometric Origin of Mass
 **The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²**
@@ -85,7 +93,9 @@ By introducing a discrete elastic restoring force (geometric inertia), a mass-li
 **Left:** Massless Weyl wave expanding at c = 1.  
 **Right:** The same wave packet slowed and concentrated by geometric inertia.
 
-<img src="emergence_of_mass.png" width="780">
+<p align="center">
+  <img src="emergence_of_mass.png" width="780">
+</p>
 
 ---
 
