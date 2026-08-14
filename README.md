@@ -3,8 +3,8 @@
 Independent researcher in discrete models & quantum foundations  
 Belgian thinker  
 
-ORCID: [0009-0008-6846-6022](https://orcid.org/0009-0008-6846-6022)  
-Email: cedric.van.caillie@gmail.com
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--6846--6022-brightgreen)](https://orcid.org/0009-0008-6846-6022)  
+Email: [cedric.van.caillie@gmail.com](mailto:cedric.van.caillie@gmail.com)
 
 ---
 
@@ -12,10 +12,9 @@ Email: cedric.van.caillie@gmail.com
 
 **A minimal geometric foundation for active matter, non-unitary quantum walks, emergent continuum physics, and the geometric origin of mass.**
 
-**Papers:**
-- [Paper 1 – Pathway to the Schrödinger Equation](https://zenodo.org/records/21460531)
-- [Paper 2 – Quantum-Walk Extension & Chiral Edge Modes](https://zenodo.org/records/21829396)
-- [Paper 3 – Emergence of Mass and E = mc²](https://zenodo.org/records/21933730)
+[![Paper 1](https://img.shields.io/badge/Paper%201-Schrödinger%20Pathway-blue)](https://zenodo.org/records/21460531)
+[![Paper 2](https://img.shields.io/badge/Paper%202-Quantum%20Walk%20%26%20Edge%20Modes-blue)](https://zenodo.org/records/21829396)
+[![Paper 3](https://img.shields.io/badge/Paper%203-Emergence%20of%20Mass%20%26%20E%3Dmc²-blue)](https://zenodo.org/records/21933730)
 
 ## Overview
 
@@ -25,60 +24,87 @@ This repository contains the foundational papers and Python simulators for the *
 
 The research develops three complementary perspectives:
 
-- **Zooming Out (Generative Foundation):** Starting from the discrete angular lattice, the model coarse-grains to the continuum and provides candidate geometric pathways to the Schrödinger and Dirac equations.
+| Perspective | Core Idea |
+|-------------|-----------|
+| **Zooming Out** | From the discrete angular lattice → continuum limit → candidate pathway to the Schrödinger & Dirac equations |
+| **Zooming In** | From a non-unitary quantum walk → full dephasing → exact recovery of the classical lattice + Weyl dynamics + chiral edge modes |
+| **Geometric Origin of Mass** | Discrete elastic restoring force (geometric inertia) → mass-like term while preserving the light-cone → conceptual motivation for **E = mc²** |
 
-- **Zooming In (Quantum-to-Classical Bridge):** Starting from a non-unitary quantum walk, full quantum dephasing exactly recovers the classical tetravalent process, while natively generating the algebraic skeleton of the 2D Weyl operator, wave-speed duality, and robust chiral edge currents.
-
-- **Geometric Origin of Mass:** By introducing a discrete elastic restoring force (geometric inertia) on the same lattice, a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
+---
 
 ## The Research
 
-### Paper 1: The Bottom-Up Approach (Zooming Out)
+### 1. Zooming Out — Generative Foundation
 **A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation**
 
-- Zenodo: [10.5281/zenodo.21460531](https://zenodo.org/records/21460531)
-- PDF: `ATLC-paper.pdf`
-- Simulator: `ATLC_Simulator_v1.4.py`
+- **Zenodo:** [10.5281/zenodo.21460531](https://zenodo.org/records/21460531)
+- **PDF:** `ATLC-paper.pdf`
+- **Simulator:** `ATLC_Simulator_v1.4.py`
 
-This foundational paper starts at the absolute microscopic floor: the classical angular lattice. It demonstrates how taking the continuum limit of this discrete 90° rotational grid naturally generates continuum quantum-like equations, providing a candidate geometric pathway to the Schrödinger and Dirac equations.
+This paper starts at the microscopic floor: the classical angular lattice. Taking the continuum limit of the discrete 90° rotational grid generates continuum quantum-like equations, providing a candidate geometric pathway to the Schrödinger and Dirac equations.
 
-### Paper 2: The Top-Down Approach (Zooming In)
+### 2. Zooming In — Quantum-to-Classical Bridge
 **The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes**
 
-- Zenodo: [10.5281/zenodo.21829396](https://zenodo.org/records/21829396)
-- PDF: `Angular_Tetravalent_Lattice_Classical_Geometric_Model.pdf`
-- Simulator: `Angular_Tetravalent_Lattice_Code.py`
+- **Zenodo:** [10.5281/zenodo.21829396](https://zenodo.org/records/21829396)
+- **PDF:** `Angular_Tetravalent_Lattice_Classical_Geometric_Model.pdf`
+- **Simulator:** `Angular_Tetravalent_Lattice_Code.py`
 
-This paper starts from a fully coherent, non-unitary quantum walk. By applying a full quantum dephasing channel, the intensity evolution exactly recovers the classical tetravalent process.
+Starting from a fully coherent non-unitary quantum walk, full quantum dephasing exactly recovers the classical tetravalent process.
 
 **Key results:**
-- Derives the algebraic skeleton of the 2D Weyl operator
-- Proves a wave-speed duality (information edge at c = 1, macroscopic ridge at c = 1/2)
-- Demonstrates topological robustness of chiral edge currents under strong disorder
+- Algebraic skeleton of the 2D Weyl operator
+- Wave-speed duality (information edge at `c = 1`, macroscopic ridge at `c = 1/2`)
+- Robust chiral edge currents that survive strong spatial disorder
 
-### Paper 3: Geometric Origin of Mass
+### 3. Geometric Origin of Mass
 **The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²**
 
-- Zenodo: [10.5281/zenodo.21933730](https://zenodo.org/records/21933730)
-- PDF: `Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf`
-- Simulator: `emergence_of_mass.py`
+- **Zenodo:** [10.5281/zenodo.21933730](https://zenodo.org/records/21933730)
+- **PDF:** `Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf`
+- **Simulator:** `emergence_of_mass.py`
 
-Building on the classical lattice, this paper introduces a discrete elastic restoring force that acts as geometric inertia. The continuum limit and numerical scaling tests show that this resistance generates a mass-like term while strictly preserving the absolute light-cone. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
+By introducing a discrete elastic restoring force (geometric inertia), a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
 
-## Summary
+---
 
-These three papers form a coherent research programme:
+## Summary of the Programme
 
-- Paper 1 shows that zooming out from the classical 90° lattice generates continuum quantum-like physics.
-- Paper 2 shows that zooming in from a non-unitary quantum walk recovers the same classical lattice while producing Weyl dynamics and robust edge modes.
-- Paper 3 shows that a minimal geometric resistance on the same lattice generates a mass-like term and a candidate geometric interpretation of **E = mc²**.
+These three papers form a coherent theoretical loop:
 
-Together, they demonstrate that continuum quantum dynamics, chiral edge modes, and the emergence of mass can arise as fundamental consequences of discrete cyclic geometry.
+1. **Zooming out** from the classical lattice generates continuum quantum-like physics.
+2. **Zooming in** from a non-unitary quantum walk recovers the same classical lattice while producing Weyl dynamics and robust edge modes.
+3. Adding a minimal geometric resistance on the same lattice generates a mass-like term and a candidate geometric interpretation of **E = mc²**.
+
+Together, they suggest that continuum quantum dynamics, chiral edge modes, and the emergence of mass can arise as fundamental consequences of discrete cyclic geometry.
+
+---
 
 ## Citation
 
-Please cite the corresponding Zenodo records if you use this work:
+If you use this work, please cite the corresponding Zenodo records:
 
-- Van Caillie, C. (2026). A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation. Zenodo. https://doi.org/10.5281/zenodo.21460531
-- Van Caillie, C. (2026). The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes. Zenodo. https://doi.org/10.5281/zenodo.21829396
-- Van Caillie, C. (2026). The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc². Zenodo. https://doi.org/10.5281/zenodo.21933730
+```bibtex
+@misc{vancaillie2026schrodinger,
+  author       = {Van Caillie, Cédric},
+  title        = {A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21460531}
+}
+
+@misc{vancaillie2026quantumwalk,
+  author       = {Van Caillie, Cédric},
+  title        = {The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21829396}
+}
+
+@misc{vancaillie2026mass,
+  author       = {Van Caillie, Cédric},
+  title        = {The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21933730}
+}
