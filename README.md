@@ -84,27 +84,14 @@ Together, they suggest that continuum quantum dynamics, chiral edge modes, and t
 
 If you use this work, please cite the corresponding Zenodo records:
 
-```bibtex
-@misc{vancaillie2026schrodinger,
-  author       = {Van Caillie, Cédric},
-  title        = {A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21460531}
-}
+**Paper 1**  
+Van Caillie, C. (2026). *A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation*. Zenodo.  
+https://doi.org/10.5281/zenodo.21460531
 
-@misc{vancaillie2026quantumwalk,
-  author       = {Van Caillie, Cédric},
-  title        = {The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21829396}
-}
+**Paper 2**  
+Van Caillie, C. (2026). *The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes*. Zenodo.  
+https://doi.org/10.5281/zenodo.21829396
 
-@misc{vancaillie2026mass,
-  author       = {Van Caillie, Cédric},
-  title        = {The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21933730}
-}
+**Paper 3**  
+Van Caillie, C. (2026). *The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²*. Zenodo.  
+https://doi.org/10.5281/zenodo.21933730
