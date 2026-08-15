@@ -24,11 +24,11 @@ This repository contains the foundational papers and Python simulators for the *
 
 The research develops three complementary perspectives:
 
-| Perspective | Core Idea |
-|-------------|-----------|
-| **Zooming Out** | From the discrete angular lattice → continuum limit → candidate pathway to the Schrödinger & Dirac equations |
-| **Zooming In** | From a non-unitary quantum walk → full dephasing → exact recovery of the classical lattice + Weyl dynamics + chiral edge modes |
-| **Geometric Origin of Mass** | Discrete elastic restoring force (geometric inertia) → mass-like term while preserving the light-cone → conceptual motivation for **E = mc²** |
+| Perspective                  | Core Idea                                                                 |
+|-----------------------------|---------------------------------------------------------------------------|
+| **Zooming Out**             | From the discrete angular lattice → continuum limit → candidate pathway to the Schrödinger & Dirac equations |
+| **Zooming In**              | From a non-unitary quantum walk → full dephasing → exact recovery of the classical lattice + Weyl dynamics + chiral edge modes |
+| **Geometric Origin of Mass**| Discrete elastic restoring force (geometric inertia) → mass-like term while preserving the light-cone → conceptual motivation for \(E = mc^2\) |
 
 ---
 
@@ -65,14 +65,15 @@ This paper starts at the microscopic floor: the classical angular lattice. Takin
 Starting from a fully coherent non-unitary quantum walk, full quantum dephasing exactly recovers the classical tetravalent process.
 
 **Key results:**
-- Algebraic skeleton of the 2D Weyl operator
-- Wave-speed duality (information edge at \(c = 1\), macroscopic ridge at \(c = 1/2\))
+- Algebraic skeleton of the 2D Weyl operator  
+- Wave-speed duality (information edge at \(c = 1\), macroscopic ridge at \(c = 1/2\))  
 - Robust chiral edge currents that survive strong spatial disorder
 
 **Core continuum equation (after adiabatic elimination):**
-\[
-\partial_\tau\psi \approx i\psi - \frac{1}{2}(\partial_x + i\partial_y)\rho
-\]
+
+$$
+\partial_\tau \psi \approx i\psi - \frac{1}{2}(\partial_x + i\partial_y)\rho
+$$
 
 **Emergence of a clean 2-D wavefront from classical active mixing:**
 
@@ -93,12 +94,13 @@ Starting from a fully coherent non-unitary quantum walk, full quantum dephasing 
 - **PDF:** `Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf`
 - **Simulator:** `emergence_of_mass.py`
 
-By introducing a discrete elastic restoring force (geometric inertia \(\kappa\)), a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **\(E = mc^2\)**.
+By introducing a discrete elastic restoring force (geometric inertia \(\kappa\)), a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for \(E = mc^2\).
 
 **Kinematic effective mass:**
-\[
+
+$$
 m_{\mathrm{eff}} = \frac{2}{1 - \kappa}
-\]
+$$
 
 **Left:** Massless Weyl wave expanding at \(c = 1\).  
 **Right:** The same wave packet slowed and concentrated by geometric inertia.
@@ -113,9 +115,9 @@ m_{\mathrm{eff}} = \frac{2}{1 - \kappa}
 
 These three papers form a coherent theoretical loop:
 
-1. **Zooming out** from the classical lattice generates continuum quantum-like physics.
-2. **Zooming in** from a non-unitary quantum walk recovers the same classical lattice while producing Weyl dynamics and robust edge modes.
-3. Adding a minimal geometric resistance on the same lattice generates a mass-like term and a candidate geometric interpretation of **\(E = mc^2\)**.
+1. **Zooming out** from the classical lattice generates continuum quantum-like physics.  
+2. **Zooming in** from a non-unitary quantum walk recovers the same classical lattice while producing Weyl dynamics and robust edge modes.  
+3. Adding a minimal geometric resistance on the same lattice generates a mass-like term and a candidate geometric interpretation of \(E = mc^2\).
 
 Together, they suggest that continuum quantum dynamics, chiral edge modes, and the emergence of mass can arise as fundamental consequences of discrete cyclic geometry.
 
@@ -125,10 +127,10 @@ Together, they suggest that continuum quantum dynamics, chiral edge modes, and t
 
 The present framework is deliberately scoped. Two important limitations remain:
 
-- The continuum equations currently describe an **open/active system** (the integrated density grows exponentially due to the non-unitary gain term).
-- Recovering a fully **conservative, unitary massive Dirac/Weyl operator** and deriving an explicit microscopic mapping \(\kappa = f(k_{\mathrm{eff}})\) from the underlying elastic potential are still open problems.
+- The continuum equations currently describe an **open / active system** (the integrated density grows exponentially due to the non-unitary gain term).
+- Recovering a fully conservative, unitary massive Dirac/Weyl operator and deriving an explicit microscopic mapping \(\kappa = f(k_{\mathrm{eff}})\) from the underlying elastic potential are still open problems.
 
-Stating these boundaries explicitly is intentional: overclaiming is the fastest way to be ignored in theoretical physics. The kinematic mass term and light-cone protection are rigorously established; the completion of the standard relativistic structure is left as future work.
+Stating these boundaries explicitly is intentional: in theoretical physics, overclaiming is the fastest way to be ignored. The kinematic mass term and light-cone protection are rigorously established; the completion of the standard relativistic structure is left as future work.
 
 ---
 
