@@ -30,46 +30,6 @@ The research develops three complementary perspectives:
 | **Zooming In** | From a non-unitary quantum walk → full dephasing → exact recovery of the classical lattice + Weyl dynamics + chiral edge modes |
 | **Geometric Origin of Mass** | Discrete elastic restoring force (geometric inertia) → mass-like term while preserving the light-cone → conceptual motivation for **E = mc²** |
 
-## Core Mathematical Structure
-
-The framework is built on a four-component state \( S = (S_1, S_2, S_3, S_4) \) living on a discrete angular lattice with strict \( +90^\circ \) cyclic structure.
-
-**1. Classical update (Paper 1 & 2)**
-
-\[
-S(t+1) = \sigma(t)\, \mathbf{A}\, S(t) + \text{elastic and feedback terms}
-\]
-
-where \(\mathbf{A}\) is the cyclic permutation matrix implementing the \( +90^\circ \) rotation.
-
-**2. Non-unitary quantum walk (Paper 2)**
-
-A coherent amplitude \(\psi\) evolves under a non-unitary walk. Full dephasing recovers the classical process exactly:
-
-\[
-|\psi|^2 \;\xrightarrow{\;\text{dephasing}\;}\; S
-\]
-
-In the continuum limit the walk generates the algebraic skeleton of the 2D Weyl operator:
-
-\[
-\partial_t \psi \sim (\partial_x + i \partial_y)\psi
-\]
-
-**3. Geometric inertia and mass (Paper 3)**
-
-An elastic restoring force is introduced:
-
-\[
-E_{\text{elastic}} \propto \kappa \bigl[\sin(\pi/2 - |\theta|)\bigr]^4
-\]
-
-In the continuum limit this resistance produces a mass-like term while preserving the light-cone \( c = 1 \). A geometric ansatz then motivates
-
-\[
-E = m\, c_{\text{rot}} \cdot c_{\text{fermat}} \quad \longrightarrow \quad E = mc^2
-\]
-
 ---
 
 ## The Research
