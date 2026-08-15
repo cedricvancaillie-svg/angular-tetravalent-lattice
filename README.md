@@ -1,9 +1,10 @@
 # Cédric Van Caillie
 **Explorer of hidden patterns**  
 Independent researcher in discrete models & quantum foundations  
-Belgian thinker  
+Belgian thinker
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--6846--6022-brightgreen)](https://orcid.org/0009-0008-6846-6022)  
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--6846--6022-brightgreen)](https://orcid.org/0009-0008-6846-6022)
+
 Email: [cedric.van.caillie@gmail.com](mailto:cedric.van.caillie@gmail.com)
 
 ---
@@ -35,11 +36,12 @@ The research develops three complementary perspectives:
 ## The Research
 
 ### 1. Zooming Out — Generative Foundation
+
 **A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation**
 
 - **Zenodo:** [10.5281/zenodo.21460531](https://zenodo.org/records/21460531)
-- **PDF:** `ATLC-paper.pdf`
-- **Simulator:** `ATLC_Simulator_v1.4.py`
+- **PDF:** [ATLC-paper.pdf](./ATLC-paper.pdf)
+- **Simulator:** [ATLC_Simulator_v1.4.py](./ATLC_Simulator_v1.4.py)
 
 This paper starts at the microscopic floor: the classical angular lattice. Taking the continuum limit of the discrete 90° rotational grid generates continuum quantum-like equations, providing a candidate geometric pathway to the Schrödinger and Dirac equations.
 
@@ -56,11 +58,12 @@ This paper starts at the microscopic floor: the classical angular lattice. Takin
 </p>
 
 ### 2. Zooming In — Quantum-to-Classical Bridge
+
 **The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes**
 
 - **Zenodo:** [10.5281/zenodo.21829396](https://zenodo.org/records/21829396)
-- **PDF:** `Angular_Tetravalent_Lattice_Classical_Geometric_Model.pdf`
-- **Simulator:** `Angular_Tetravalent_Lattice_Code.py`
+- **PDF:** [Angular_Tetravalent_Lattice_Classical_Geometric_Model.pdf](./Angular_Tetravalent_Lattice_Classical_Geometric_Model.pdf)
+- **Simulator:** [Angular_Tetravalent_Lattice_Code.py](./Angular_Tetravalent_Lattice_Code.py)
 
 Starting from a fully coherent non-unitary quantum walk, full quantum dephasing exactly recovers the classical tetravalent process.
 
@@ -82,11 +85,12 @@ Starting from a fully coherent non-unitary quantum walk, full quantum dephasing 
 </p>
 
 ### 3. Geometric Origin of Mass
+
 **The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²**
 
 - **Zenodo:** [10.5281/zenodo.21933730](https://zenodo.org/records/21933730)
-- **PDF:** `Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf`
-- **Simulator:** `emergence_of_mass.py`
+- **PDF:** [Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf](./Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf)
+- **Simulator:** [emergence_of_mass.py](./emergence_of_mass.py)
 
 By introducing a discrete elastic restoring force (geometric inertia), a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
 
