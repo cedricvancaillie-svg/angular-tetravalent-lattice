@@ -1,5 +1,8 @@
-# Cédric Van Caillie
-**Explorer of hidden patterns**  
+# angular-tetravalent-lattice
+
+## Cédric Van Caillie
+
+Explorer of hidden patterns  
 Independent researcher in discrete models & quantum foundations  
 Belgian thinker  
 
@@ -8,13 +11,11 @@ Email: [cedric.van.caillie@gmail.com](mailto:cedric.van.caillie@gmail.com)
 
 ---
 
-# The Angular Tetravalent Lattice
+## The Angular Tetravalent Lattice
 
 **A minimal geometric foundation for active matter, non-unitary quantum walks, emergent continuum physics, and the geometric origin of mass.**
 
-[![Paper 1](https://img.shields.io/badge/Paper%201-Schrödinger%20Pathway-blue)](https://zenodo.org/records/21460531)
-[![Paper 2](https://img.shields.io/badge/Paper%202-Quantum%20Walk%20%26%20Edge%20Modes-blue)](https://zenodo.org/records/21829396)
-[![Paper 3](https://img.shields.io/badge/Paper%203-Emergence%20of%20Mass%20%26%20E%3Dmc²-blue)](https://zenodo.org/records/21933730)
+[![Paper 1](https://img.shields.io/badge/Paper%201-Schrödinger%20Pathway-blue)](https://zenodo.org/records/21460531) [![Paper 2](https://img.shields.io/badge/Paper%202-Quantum%20Walk%20%26%20Edge%20Modes-blue)](https://zenodo.org/records/21829396) [![Paper 3](https://img.shields.io/badge/Paper%203-Emergence%20of%20Mass%20%26%20E%3Dmc²-blue)](https://zenodo.org/records/21933730)
 
 ## Overview
 
@@ -24,90 +25,73 @@ This repository contains the foundational papers and Python simulators for the *
 
 The research develops three complementary perspectives:
 
-| Perspective                  | Core Idea                                                                 |
-|-----------------------------|---------------------------------------------------------------------------|
-| **Zooming Out**             | From the discrete angular lattice → continuum limit → candidate pathway to the Schrödinger & Dirac equations |
-| **Zooming In**              | From a non-unitary quantum walk → full dephasing → exact recovery of the classical lattice + Weyl dynamics + chiral edge modes |
-| **Geometric Origin of Mass**| Discrete elastic restoring force (geometric inertia) → mass-like term while preserving the light-cone → conceptual motivation for \(E = mc^2\) |
+| Perspective | Core Idea |
+| :--- | :--- |
+| **Zooming Out** | From the discrete angular lattice → continuum limit → candidate pathway to the Schrödinger & Dirac equations |
+| **Zooming In** | From a non-unitary quantum walk → full dephasing → exact recovery of the classical lattice + Weyl dynamics + chiral edge modes |
+| **Geometric Origin of Mass** | Discrete elastic restoring force (geometric inertia) → mass-like term while preserving the light-cone → conceptual motivation for **E = mc²** |
 
 ---
 
 ## The Research
 
 ### 1. Zooming Out — Generative Foundation
+
 **A Discrete Angular Tetravalent Lattice and a Candidate Pathway to the Schrödinger Equation**
 
-- **Zenodo:** [10.5281/zenodo.21460531](https://zenodo.org/records/21460531)
-- **PDF:** `ATLC-paper.pdf`
-- **Simulator:** `ATLC_Simulator_v1.4.py`
+*   **Zenodo:** [10.5281/zenodo.21460531](https://zenodo.org/records/21460531)
+*   **PDF:** `ATLC-paper.pdf`
+*   **Simulator:** `ATLC_Simulator_v1.4.py`
 
 This paper starts at the microscopic floor: the classical angular lattice. Taking the continuum limit of the discrete 90° rotational grid generates continuum quantum-like equations, providing a candidate geometric pathway to the Schrödinger and Dirac equations.
 
-**Long-term state evolution of the four-component system:**
+Long-term state evolution of the four-component system:
 
-<p align="center">
-  <img src="Paper1%20figure%201.png" width="720">
-</p>
+![State evolution over 15,000 steps](Paper1_figure_1.png)
 
-**Elastic rupture risk remains stable, while the Fermat spiral phase grows as expected:**
+Elastic rupture risk remains stable, while the Fermat spiral phase grows as expected:
 
-<p align="center">
-  <img src="Paper1%20Fgure%202%20and%203.png" width="720">
-</p>
+![Elastic rupture risk and Fermat spiral phase](Paper1_Figure_2_and_3.png)
 
 ### 2. Zooming In — Quantum-to-Classical Bridge
+
 **The Angular Tetravalent Lattice: A Classical Geometric Model with a Non-Unitary Quantum-Walk Extension and Chiral Edge Modes**
 
-- **Zenodo:** [10.5281/zenodo.21829396](https://zenodo.org/records/21829396)
-- **PDF:** `Angular_Tetravalent_Lattice_Classical_Geometric_Model.pdf`
-- **Simulator:** `Angular_Tetravalent_Lattice_Code.py`
+*   **Zenodo:** [10.5281/zenodo.21829396](https://zenodo.org/records/21829396)
+*   **PDF:** `Angular_Tetravalent_Lattice_Classical_Geometric_Model.pdf`
+*   **Simulator:** `Angular_Tetravalent_Lattice_Code.py`
 
 Starting from a fully coherent non-unitary quantum walk, full quantum dephasing exactly recovers the classical tetravalent process.
 
 **Key results:**
-- Algebraic skeleton of the 2D Weyl operator  
-- Wave-speed duality (information edge at \(c = 1\), macroscopic ridge at \(c = 1/2\))  
-- Robust chiral edge currents that survive strong spatial disorder
+*   Algebraic skeleton of the 2D Weyl operator ( $\partial_\tau \psi \approx i\psi - \frac{1}{2}(\partial_x + i\partial_y)\rho$ )
+*   Wave-speed duality (information edge at `c = 1`, macroscopic ridge at `c = 1/2`)
+*   Robust chiral edge currents that survive strong spatial disorder
 
-**Core continuum equation (after adiabatic elimination):**
+Emergence of a clean 2-D wavefront from classical active mixing:
 
-$$
-\partial_\tau \psi \approx i\psi - \frac{1}{2}(\partial_x + i\partial_y)\rho
-$$
+![Emergence of 2-D Wavefront](wave_ring.png)
 
-**Emergence of a clean 2-D wavefront from classical active mixing:**
+Robust chiral edge current that remains unidirectional even under 80% spatial disorder:
 
-<p align="center">
-  <img src="wave_ring.png" width="620">
-</p>
-
-**Robust chiral edge current that remains unidirectional even under 80% spatial disorder:**
-
-<p align="center">
-  <img src="edge_state_disordered.png" width="480">
-</p>
+![Robust Chiral Edge Current](edge_state_disordered.png)
 
 ### 3. Geometric Origin of Mass
-**The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and \(E = mc^2\)**
 
-- **Zenodo:** [10.5281/zenodo.21933730](https://zenodo.org/records/21933730)
-- **PDF:** `Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf`
-- **Simulator:** `emergence_of_mass.py`
+**The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²**
 
-By introducing a discrete elastic restoring force (geometric inertia \(\kappa\)), a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for \(E = mc^2\).
+*   **Zenodo:** [10.5281/zenodo.21933730](https://zenodo.org/records/21933730)
+*   **PDF:** `Angular_Tetravalent_Lattice_Emergence_of_Mass_and_Emc2.pdf`
+*   **Simulator:** `emergence_of_mass.py`
 
-**Kinematic effective mass:**
+By introducing a discrete elastic restoring force (geometric inertia), a mass-like term emerges while the absolute light-cone remains strictly preserved. A geometric ansatz is proposed in which rest energy arises as the cross-product of orthogonal lattice velocities, offering a conceptual motivation for **E = mc²**.
 
-$$
-m_{\mathrm{eff}} = \frac{2}{1 - \kappa}
-$$
+**Key mathematical result:** Yields a kinematic effective mass $m_{\text{eff}} = \frac{2}{1-\kappa}$.
 
-**Left:** Massless Weyl wave expanding at \(c = 1\).  
-**Right:** The same wave packet slowed and concentrated by geometric inertia.
+Left: Massless Weyl wave expanding at c = 1.  
+Right: The same wave packet slowed and concentrated by geometric inertia.
 
-<p align="center">
-  <img src="emergence_of_mass.png" width="780">
-</p>
+![Massless vs Massive Wave](emergence_of_mass.png)
 
 ---
 
@@ -115,9 +99,9 @@ $$
 
 These three papers form a coherent theoretical loop:
 
-1. **Zooming out** from the classical lattice generates continuum quantum-like physics.  
-2. **Zooming in** from a non-unitary quantum walk recovers the same classical lattice while producing Weyl dynamics and robust edge modes.  
-3. Adding a minimal geometric resistance on the same lattice generates a mass-like term and a candidate geometric interpretation of \(E = mc^2\).
+1. **Zooming out** from the classical lattice generates continuum quantum-like physics.
+2. **Zooming in** from a non-unitary quantum walk recovers the same classical lattice while producing Weyl dynamics and robust edge modes.
+3. **Adding a minimal geometric resistance** on the same lattice generates a mass-like term and a candidate geometric interpretation of **E = mc²**.
 
 Together, they suggest that continuum quantum dynamics, chiral edge modes, and the emergence of mass can arise as fundamental consequences of discrete cyclic geometry.
 
@@ -125,12 +109,11 @@ Together, they suggest that continuum quantum dynamics, chiral edge modes, and t
 
 ## Limitations & Open Problems
 
-The present framework is deliberately scoped. Two important limitations remain:
+To clarify the epistemological status of this framework, the following limitations define the roadmap for future work:
 
-- The continuum equations currently describe an **open / active system** (the integrated density grows exponentially due to the non-unitary gain term).
-- Recovering a fully conservative, unitary massive Dirac/Weyl operator and deriving an explicit microscopic mapping \(\kappa = f(k_{\mathrm{eff}})\) from the underlying elastic potential are still open problems.
-
-Stating these boundaries explicitly is intentional: in theoretical physics, overclaiming is the fastest way to be ignored. The kinematic mass term and light-cone protection are rigorously established; the completion of the standard relativistic structure is left as future work.
+*   **Open/Active System:** The continuum limit currently describes an open, active system in which integrated density grows exponentially due to the non-unitary gain term. 
+*   **Conservative Dynamics:** The recovery of a fully conservative, unitary Dirac/Weyl operator and the closed relativistic dispersion relation ($E^2 = p^2c^2 + m^2c^4$) remains an essential open problem.
+*   **Phenomenological Parameter:** The geometric inertia parameter $\kappa$ currently functions as a free phenomenological parameter. Deriving an explicit analytical mapping to the microscopic lattice elastic stiffness ($\kappa = f(k_{\text{eff}})$) is left for future investigation.
 
 ---
 
@@ -147,5 +130,5 @@ Van Caillie, C. (2026). *The Angular Tetravalent Lattice: A Classical Geometric 
 https://doi.org/10.5281/zenodo.21829396
 
 **Paper 3**  
-Van Caillie, C. (2026). *The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and \(E = mc^2\)*. Zenodo.  
+Van Caillie, C. (2026). *The Angular Tetravalent Lattice: A Geometric Proposal for the Emergence of Mass and E = mc²*. Zenodo.  
 https://doi.org/10.5281/zenodo.21933730
